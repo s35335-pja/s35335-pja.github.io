@@ -1,0 +1,120 @@
+  <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color:#f4f4f4; 
+            line-height: 1.6;
+        }
+
+        body {
+              background-image: url('herobrine background.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+        }
+
+        img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+        }
+
+       .reddit-link {
+              color: #f4f4f4;
+              text-decoration: none;
+        }
+
+       .reddit-link:hover {
+                text-decoration: underline;
+        }
+        
+
+
+        header {
+            background: linear-gradient(135deg, #050c1d, #042118);
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 4px solid #009dff;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #00ccff;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #cccccc;
+        }
+
+        nav {
+            background-color: #111;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #00ffcc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+       article {
+            margin-bottom: 40px;
+            background: #2a2a2a;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,255,100,0.2);
+        }
+
+        h2 {
+            color: #00ffcc;;
+            margin-bottom: 15px;
+        }
+
+        .timeline {
+            border-left: 3px solid  #00ffcc;;
+            padding-left: 20px;
+        }
+
+        .timeline-item {
+            margin-bottom: 20px;
+        }
+
+        .timeline-item h3 {
+            color: #99ff99;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #aaa;
+            margin-top: 30px;
+        }
+
+        .quote {
+            font-style: italic;
+            color: #cccccc;
+            border-left: 4px solid  #00ffcc;
+            padding-left: 15px;
+            margin-top: 15px;
+        }
+    </style>
